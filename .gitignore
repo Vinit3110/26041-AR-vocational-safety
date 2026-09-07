@@ -1,0 +1,45 @@
+# Unity-generated folders and files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.utmp/
+
+# Unity/IDE generated project files
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.unityproj
+*.booproj
+*.opendb
+*.VC.db
+
+# Android/Gradle and native build intermediates
+.gradle/
+.idea/
+*.apk
+*.aab
+*.ap_
+*.keystore
+*.jks
+
+# Build output directories
+[Bb]uild/
+[Bb]uilds/
+ExportedObj/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
