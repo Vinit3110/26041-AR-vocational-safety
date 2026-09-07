@@ -1,18 +1,31 @@
-# Unity-generated folders and files
+# ============================================================
+# 26041 AR Vocational Safety
+# Root Git Ignore
+# ============================================================
+
+
+# ============================================================
+# UNITY
+# ============================================================
+
+# Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Ll]ogs/
-[Uu]serSettings/
-[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+[Mm]emory[Cc]aptures/
 [Rr]ecordings/
+
+# Unity build/cache directories
 .utmp/
 
-# Unity/IDE generated project files
+# Unity generated IDE/project files
 .vs/
 .vscode/
 *.csproj
 *.sln
+*.slnx
 *.user
 *.userprefs
 *.pidb
@@ -22,24 +35,100 @@
 *.opendb
 *.VC.db
 
-# Android/Gradle and native build intermediates
-.gradle/
-.idea/
-*.apk
-*.aab
-*.ap_
-*.keystore
-*.jks
-
-# Build output directories
+# Unity generated build files
 [Bb]uild/
 [Bb]uilds/
-ExportedObj/
+[Ee]xported[Oo]bj/
 
-# Local secrets and environment overrides
+# Gradle / Android generated files
+.gradle/
+.idea/
+local.properties
+
+
+# ============================================================
+# BUILD OUTPUTS
+# ============================================================
+
+# Android / mobile builds
+*.apk
+*.aab
+
+# Generic build/output directories
+dist/
+out/
+
+
+# ============================================================
+# OS / EDITOR
+# ============================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# VS Code
+.history/
+
+
+# ============================================================
+# PROGRAMMING / TOOLING
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
 .env
 .env.*
 !.env.example
-*.pem
-*.p12
-*.pfx
+
+
+# ============================================================
+# TEMPORARY / LOCAL FILES
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.log
+
+# Local test/output data
+coverage/
+.cache/
+
+
+# ============================================================
+# PROJECT-SPECIFIC LOCAL DATA
+# ============================================================
+
+# Local datasets / generated AI outputs
+# Uncomment if these become too large for Git:
+# data/raw/
+# data/processed/
+# models/
+# checkpoints/
+
+# Local server/database files
+*.db
+*.sqlite
+*.sqlite3
